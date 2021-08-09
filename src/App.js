@@ -1,4 +1,5 @@
 import Header from './components/Header/Header';
+import HighLights from './components/HighLights/HighLights';
 import KingContainer from './components/KingContainer/KingContainer';
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
 		<div>
 			<Header />
 			<KingContainer />
+			<HighLights />
 		</div>
 	);
 }

@@ -4,7 +4,7 @@ import PlayerCard from '../PlayerCard/PlayerCard';
 const KingContainer = () => {
 	const players = [1, 2, 3, 4, 5, 6, 7, 8];
 	return (
-		<div className='mx-4 sm:mx-16 lg:mx-32'>
+		<div className='mx-4 sm:mx-16 lg:mx-32 my-16'>
 			<div>
 				<h1>The King Of Football</h1>
 				<p>
