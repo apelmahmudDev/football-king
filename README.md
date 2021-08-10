@@ -1,6 +1,6 @@
 # Football King
 
-![](https://i.imgur.com/dof5IpM.png)
+![](https://github.com/apelmahmudDev/football-king/blob/master/src/images/football-king.png?raw=true)
 
 ### Features
 
@@ -14,3 +14,5 @@
 
 - React
 - Tailwind CSS
+
+## [Live site](https://footballking.netlify.app/)
