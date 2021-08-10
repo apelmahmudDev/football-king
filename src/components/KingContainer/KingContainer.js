@@ -12,10 +12,12 @@ const KingContainer = () => {
 	}, []);
 
 	return (
-		<div className='mx-4 sm:mx-16 lg:mx-32 my-16'>
-			<div>
-				<h1>The King Of Football</h1>
-				<p>
+		<div className='mx-4 sm:mx-16 lg:mx-32 mt-32'>
+			<div className='text-center mb-8'>
+				<h1 className='text-3xl text-gray-900 font-bold'>
+					The King Of Football
+				</h1>
+				<p className='text-gray-500 my-3'>
 					Lorem ipsum dolor sit, amet consectetur <br />
 					adipisicing elit. Laudantium <br />
 					molestiae tempora
