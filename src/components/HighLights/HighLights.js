@@ -3,7 +3,7 @@ import MatchHighLights from '../../images/match.png';
 
 const HighLights = () => {
 	return (
-		<div className='grid grid-cols-2 gap-10 my-16 mx-4 sm:mx-16 lg:mx-32'>
+		<div className='grid md:grid-cols-2 gap-10 mt-32 mx-4 sm:mx-16 lg:mx-32'>
 			<div>
 				<h1 className='text-2xl md:text-4xl my-4 text-gray-900 font-bold'>
 					All HighLights <br />
@@ -26,7 +26,7 @@ const HighLights = () => {
 						<path
 							strokeLinecap='round'
 							strokeLinejoin='round'
-							strokeWidth={2}
+							strokeWidth='2'
 							d='M13 7l5 5m0 0l-5 5m5-5H6'
 						/>
 					</svg>

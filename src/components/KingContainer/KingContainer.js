@@ -1,8 +1,16 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import PlayerCard from '../PlayerCard/PlayerCard';
+import playerFakeData from '../../fakeData/playersData.json';
 
 const KingContainer = () => {
-	const players = [1, 2, 3, 4, 5, 6, 7, 8];
+	const [players, setPlayers] = useState([]);
+
+	// load players data
+	useEffect(() => {
+		const playersData = playerFakeData;
+		setPlayers(playersData);
+	}, []);
+
 	return (
 		<div className='mx-4 sm:mx-16 lg:mx-32 my-16'>
 			<div>
@@ -15,7 +23,14 @@ const KingContainer = () => {
 			</div>
 			<div className='grid md:grid-cols-2 lg:grid-cols-3 gap-10'>
 				{players.map((player) => (
-					<PlayerCard />
+					<PlayerCard
+						key={player.id}
+						name={player.name}
+						status={player.status}
+						hirePrice={player.hirePrice}
+						img={player.img}
+						about={player.about}
+					/>
 				))}
 			</div>
 		</div>

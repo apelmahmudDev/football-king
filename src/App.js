@@ -1,17 +1,22 @@
+import { createContext, useState } from 'react';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import HighLights from './components/HighLights/HighLights';
 import KingContainer from './components/KingContainer/KingContainer';
 
-function App() {
+// context Api
+export const PlayerContext = createContext();
+
+const App = () => {
+	const [players, setPlayers] = useState([]);
 	return (
-		<div>
+		<PlayerContext.Provider value={{ players, setPlayers }}>
 			<Header />
 			<KingContainer />
 			<HighLights />
 			<Footer />
-		</div>
+		</PlayerContext.Provider>
 	);
-}
+};
 
 export default App;

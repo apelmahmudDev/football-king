@@ -1,0 +1,98 @@
+[
+	{
+		"id": 4325,
+		"name": "Leo Messi",
+		"status": "hired",
+		"hirePrice": 2349584,
+		"img": "https://i.imgur.com/lMHd703.png",
+		"about": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard "
+	},
+	{
+		"id": 4321,
+		"name": "Neymar Jr",
+		"status": "not hired",
+		"hirePrice": 2049584,
+		"img": "https://i.imgur.com/Tk0U4Ad.png",
+		"about": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard "
+	},
+	{
+		"id": 4322,
+		"name": "Cristiano Ronaldo",
+		"status": "hired",
+		"hirePrice": 1949584,
+		"img": "https://i.imgur.com/rND8E5e.png",
+		"about": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard "
+	},
+	{
+		"id": 4323,
+		"name": "Paulo Dybala",
+		"status": "not hired",
+		"hirePrice": 1549584,
+		"img": "https://i.imgur.com/uJwoIZD.png",
+		"about": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard "
+	},
+	{
+		"id": 4324,
+		"name": "Mesut Ozil",
+		"status": "not hired",
+		"hirePrice": 1249584,
+		"img": "https://i.imgur.com/jSoE6jP.png.png",
+		"about": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard "
+	},
+	{
+		"id": 4326,
+		"name": "Mauro Icardi ",
+		"status": "hired",
+		"hirePrice": 2349584,
+		"img": "https://i.imgur.com/PSiwtAt.png",
+		"about": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard "
+	},
+	{
+		"id": 4327,
+		"name": "Di Maria",
+		"status": "not hired",
+		"hirePrice": 2249584,
+		"img": "https://i.imgur.com/ZHpPxUj.png",
+		"about": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard "
+	},
+	{
+		"id": 4328,
+		"name": "Kylian Mbappé",
+		"status": "hire",
+		"hirePrice": 149584,
+		"img": "https://i.imgur.com/srdk4mr.png",
+		"about": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard "
+	},
+	{
+		"id": 432134,
+		"name": "Philippe Coutinho",
+		"status": "not ired",
+		"hirePrice": 949584,
+		"img": "https://i.imgur.com/fhlnURi.png",
+		"about": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard "
+	},
+	{
+		"id": 43210,
+		"name": "Mohamed Salah",
+		"status": "hired",
+		"hirePrice": 2349584,
+		"img": "https://i.imgur.com/uqvheuY.png",
+		"about": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard "
+	},
+	{
+		"id": 43211,
+		"name": "Harry Kane",
+		"status": "not hired",
+		"hirePrice": 1449584,
+		"img": "https://i.imgur.com/TCdDfKj.png",
+		"about": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard "
+	},
+	{
+		"id": 43212,
+		"name": "Kevin De Bruyne",
+		"status": "not hired",
+		"hirePrice": 1049584,
+		"img": "https://i.imgur.com/Z4tJP8U.png",
+		"about": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard "
+	}
+]
