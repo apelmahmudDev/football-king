@@ -6,7 +6,7 @@ import Navbar from './Navbar/Navbar';
 const Header = () => {
 	return (
 		<div className='bg-blue-800'>
-			<div className='mx-32'>
+			<div className='mx-4 sm:mx-16 lg:mx-32'>
 				<Navbar />
 				<Cart />
 				<Banner />

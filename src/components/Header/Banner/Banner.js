@@ -5,7 +5,7 @@ const Banner = () => {
 	return (
 		<div className='md:flex md:items-center md:justify-between py-8'>
 			<div>
-				<h1 className='text-3xl md:text-7xl text-white leading-tight font-bold'>
+				<h1 className='text-4xl md:text-5xl lg:text-7xl text-white leading-tight font-bold'>
 					Conmebol <br />
 					Copa America
 					<br />

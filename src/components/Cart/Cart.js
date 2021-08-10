@@ -6,7 +6,7 @@ const Cart = () => {
 	const totalPrice = players.reduce((sum, player) => sum + player.hirePrice, 0);
 
 	return (
-		<div className='h-auto w-96 bg-gradient-to-r from-gray-100 to-purple-50 to-pink-50 p-5 rounded shadow-lg'>
+		<div className='h-auto w-auto md:w-96 bg-gradient-to-r from-gray-100 via-purple-50 to-pink-100 p-5 rounded shadow-lg'>
 			<h1 className='mb-2 text-2xl'>Team Selection</h1>
 			<div className='flex justify-between border-b-2 border-gray-600 mb-2'>
 				<h3 className='text-md font-bold text-gray-900 pb-1'>Player</h3>

@@ -11,7 +11,7 @@ const Navbar = () => {
 	};
 
 	return (
-		<div className='flex justify-center md:justify-between py-8'>
+		<div className='flex justify-between py-8'>
 			<nav>
 				<div
 					className='nav hidden md:flex md:items-center md:flex-wrap leading-8 md:leading-normal'
